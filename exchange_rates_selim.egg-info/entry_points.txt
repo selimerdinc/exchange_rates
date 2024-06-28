@@ -1,0 +1,2 @@
+[console_scripts]
+exchange-rates-selim-cli = app:cli

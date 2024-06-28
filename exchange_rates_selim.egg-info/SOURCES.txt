@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+exchange_rates_selim.egg-info/PKG-INFO
+exchange_rates_selim.egg-info/SOURCES.txt
+exchange_rates_selim.egg-info/dependency_links.txt
+exchange_rates_selim.egg-info/entry_points.txt
+exchange_rates_selim.egg-info/requires.txt
+exchange_rates_selim.egg-info/top_level.txt

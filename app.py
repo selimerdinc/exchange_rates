@@ -5,9 +5,9 @@ from HttpClient.httpClient import ExchangeClient
 
 @click.command()
 @click.option("--currency", default="Dolar", help="Öğrenmek istediğiniz exchange adını giriniz")
-def cli(exchange):
+def cli(currency):
     client = ExchangeClient()
     try:
-        print(client.scrape_exchange_rate(exchange))
+        print(client.scrape_exchange_rate(currency))
     except Exception as e:
         print(e)
