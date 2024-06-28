@@ -12,9 +12,10 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'exchange-rates-selim-cli=exchange-rates-selim.app:cli',
+            'exchange-rates-selim-cli = exchange-rates-selim.app:cli',
         ],
     },
+
     author='selimerdinc',
     author_email='serdinc10@gmail.com',
     description='A Python library for fetching exchange rates.',
