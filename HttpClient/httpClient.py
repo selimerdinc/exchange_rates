@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-class HttpClient:
+class ExchangeClient:
     def __init__(self):
         self.base_url = 'https://www.doviz.com/'
 

@@ -1,0 +1,2 @@
+[console_scripts]
+exchange_rates-cli = exchange_rates.cli:main
