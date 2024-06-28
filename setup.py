@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='exchange_rates',
+    name='exchange-rates-selim',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -12,12 +12,12 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'exchange_rates-cli=exchange_rates.app:cli',
+            'exchange-rates-selim-cli=exchange-rates-selim.app:cli',
         ],
     },
     author='selimerdinc',
     author_email='serdinc10@gmail.com',
     description='A Python library for fetching exchange rates.',
     license='MIT',
-    url='https://github.com/selimerdinc/exchange_rates',
+    url='https://github.com/selimerdinc/exchange-rates-selim',
 )
