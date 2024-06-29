@@ -1,6 +1,6 @@
 import click
 
-from HttpClient.httpClient import ExchangeClient
+from exchange_rates.httpClient import ExchangeClient
 
 
 @click.command()

@@ -3,3 +3,6 @@ flask
 flasgger
 click
 beautifulsoup4
+twine
+setuptools
+wheel

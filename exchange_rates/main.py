@@ -1,9 +1,8 @@
 from flask import Flask, jsonify, request
 from flasgger import Swagger
+from exchange_rates.httpClient import ExchangeClient
 
-from HttpClient.httpClient import HttpClient
-
-httpClient = HttpClient()
+exchangeClient = ExchangeClient()
 
 app = Flask(__name__)
 Swagger(app)
@@ -52,7 +51,7 @@ def get_stocks():
     if not currency_name:
         return jsonify({'error': 'currency_name parameter is required'}), 400
 
-    response = httpClient.scrape_exchange_rate(currency_name)
+    response = exchangeClient.scrape_exchange_rate(currency_name)
     if response:
         return jsonify(response)
     else:

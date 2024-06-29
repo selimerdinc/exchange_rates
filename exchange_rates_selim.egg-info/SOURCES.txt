@@ -1,5 +1,9 @@
 LICENSE
 setup.py
+exchange_rates/__init__.py
+exchange_rates/app.py
+exchange_rates/httpClient.py
+exchange_rates/main.py
 exchange_rates_selim.egg-info/PKG-INFO
 exchange_rates_selim.egg-info/SOURCES.txt
 exchange_rates_selim.egg-info/dependency_links.txt

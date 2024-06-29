@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: exchange-rates-selim
+Name: exchange_rates-selim
 Version: 0.1
 Summary: A Python library for fetching exchange rates.
 Home-page: https://github.com/selimerdinc/exchange-rates-selim
