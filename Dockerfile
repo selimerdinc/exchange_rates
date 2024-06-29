@@ -5,4 +5,4 @@ WORKDIR /app
 
 RUN pip install exchange_rates
 
-ENTRYPOINT ["exchange_rates-cli"]
+ENTRYPOINT ["exchange_rates-selim-cli"]
