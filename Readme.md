@@ -7,7 +7,7 @@ Python Exchange Rates kütüphanesi, çeşitli döviz kurları ve yakıt fiyatla
 Paketi pip aracılığıyla yükleyin:
 
 ```bash
-pip install exchange_rates-selim
+pip install exchange-rates-selim
 ```
 
 ## Kullanım
@@ -15,7 +15,7 @@ pip install exchange_rates-selim
 ```bash
 Terminal üzerinden currency kodu parametresi geçerek ilgili currency değerini json formatında görebilirsiniz.
 
-exchange_rates-selim-cli --currency euro
+exchange-rates-selim-cli --currency euro
 
 -> Euro Anlık Fiyatına Ulaşın
 
